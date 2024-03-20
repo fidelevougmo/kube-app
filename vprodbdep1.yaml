@@ -35,7 +35,7 @@ spec:
         zone: us-east-1a
       volumes:
       - name: vprodb-data
-        PersistentVolumeClaim:
+        persistentVolumeClaim:
           claimName: ebs-pvc
       initContainers:
       - name: busybox
