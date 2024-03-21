@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vprormq
-        image: mrabbitmq
+        image: rabbitmq
         ports:
         - name: vprormq-port
           containerPort: 15672
